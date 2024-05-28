@@ -26,7 +26,7 @@ import createStyles from './TabThumbnail.styles';
 import { TabThumbnailProps } from './TabThumbnail.types';
 import useNetworkInfo from './useNetworkInfo';
 import useSelectedAccount from './useSelectedAccount';
-import METAMASK_FOX from '../../../../images/fox.png';
+import METAMASK_FOX from '../../../../images/hexagon.png';
 
 const { HOMEPAGE_URL } = AppConstants;
 
