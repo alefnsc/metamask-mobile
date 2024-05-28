@@ -123,8 +123,8 @@ const styles = StyleSheet.create({
   },
 });
 
-const metamask_name = require('../../../images/metamask-name.png'); // eslint-disable-line
-const metamask_fox = require('../../../images/fox.png'); // eslint-disable-line
+const chainlink_name = require('../../../images/chainlink-name.png'); // eslint-disable-line
+const chainlink_hexagon = require('../../../images/hexagon.png'); // eslint-disable-line
 /**
  * Function that returns the navigation options
  * This is used by views that will show our custom navbar
@@ -683,7 +683,7 @@ export function getOnboardingNavbarOptions(
     headerTitle: () => (
       <View style={styles.metamaskNameTransparentWrapper}>
         <Image
-          source={metamask_name}
+          source={chainlink_name}
           style={innerStyles.metamaskName}
           resizeMethod={'auto'}
         />
@@ -718,7 +718,7 @@ export function getTransparentOnboardingNavbarOptions(themeColors) {
     headerTitle: () => (
       <View style={styles.metamaskNameTransparentWrapper}>
         <Image
-          source={metamask_name}
+          source={chainlink_name}
           style={innerStyles.metamaskName}
           resizeMethod={'auto'}
         />
@@ -752,7 +752,7 @@ export function getTransparentBackOnboardingNavbarOptions(themeColors) {
     headerTitle: () => (
       <View style={styles.metamaskNameTransparentWrapper}>
         <Image
-          source={metamask_name}
+          source={chainlink_name}
           style={innerStyles.metamaskName}
           resizeMethod={'auto'}
         />
@@ -793,14 +793,14 @@ export function getOptinMetricsNavbarOptions(themeColors) {
       <View style={styles.optinHeaderLeft}>
         <View style={styles.metamaskNameWrapper}>
           <Image
-            source={metamask_fox}
+            source={chainlink_hexagon}
             style={styles.metamaskFox}
             resizeMethod={'auto'}
           />
         </View>
         <View style={styles.metamaskNameWrapper}>
           <Image
-            source={metamask_name}
+            source={chainlink_name}
             style={innerStyles.metamaskName}
             resizeMethod={'auto'}
           />
@@ -992,7 +992,7 @@ export function getWalletNavbarOptions(
     ),
     headerLeft: () => (
       <Image
-        source={metamask_fox}
+        source={chainlink_hexagon}
         style={styles.fox}
         resizeMethod={'auto'}
         testID={CommonSelectorsIDs.FOX_ICON}
