@@ -321,8 +321,8 @@ const createStyles = (colors) =>
     protectWalletButtonWrapper: { marginVertical: 8 },
   });
 
-const metamask_name = require('../../../images/metamask-name.png'); // eslint-disable-line
-const metamask_fox = require('../../../images/fox.png'); // eslint-disable-line
+const chainlink_name = require('../../../images/chainlink-name.png'); // eslint-disable-line
+const chainlink_hexagon = require('../../../images/hexagon.png'); // eslint-disable-line
 const ICON_IMAGES = {
   wallet: require('../../../images/wallet-icon.png'), // eslint-disable-line
   'selected-wallet': require('../../../images/selected-wallet-icon.png'), // eslint-disable-line
@@ -1039,12 +1039,12 @@ class DrawerView extends PureComponent {
           <View style={styles.header}>
             <View style={styles.metamaskLogo}>
               <Image
-                source={metamask_fox}
+                source={chainlink_hexagon}
                 style={styles.metamaskFox}
                 resizeMethod={'auto'}
               />
               <Image
-                source={metamask_name}
+                source={chainlink_name}
                 style={styles.metamaskName}
                 resizeMethod={'auto'}
               />
