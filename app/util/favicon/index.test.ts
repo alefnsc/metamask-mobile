@@ -228,7 +228,7 @@ describe('isFaviconSVG function', () => {
     expect(isFaviconSVG(faviconUri)).toEqual(expectedUrl);
   });
   it('returns undefined if source is not SVG', async () => {
-    const expectedUrl = 'https://metamask.github.io/metamask-fox.png';
+    const expectedUrl = 'https://metamask.github.io/metamask-hexagon.png';
     const faviconUri = { uri: expectedUrl };
 
     expect(isFaviconSVG(faviconUri)).toBeUndefined();
